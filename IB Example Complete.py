@@ -16,7 +16,6 @@ import time
 # Vars
 orderId = 1
 
-
 # Class for Interactive Brokers Connection
 class IBApi(EWrapper, EClient):
     def __init__(self):
